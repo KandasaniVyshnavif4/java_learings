@@ -23,6 +23,7 @@ public class Two_D
         }
         System.out.println(" ");}
        System.out.println("HEAE INSTED WE CAN DO IN ANOTHER WAY AND THIS IS CALLED AS ENHANSED FOR LOOP ");
+        //it is also called as FOR EACH LOOP
        for(int n[]:array)
        {
         for (int m:n)
