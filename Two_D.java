@@ -21,9 +21,19 @@ public class Two_D
         {
            System.out.print(+array[i][j]+" ");
         }
+        System.out.println(" ");}
+       System.out.println("HEAE INSTED WE CAN DO IN ANOTHER WAY ");
+       for(int n[]:array)
+       {
+        for (int m:n)
+        {
+            System.out.print(m+" ");
+
+        }
         System.out.println(" ");
-       }    
+       }
        sc.close();
 
-    }
+    
+}
 }
