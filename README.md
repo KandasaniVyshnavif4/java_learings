@@ -41,6 +41,7 @@ class Demo
     }
 }
 
--------STATIC KEYWORD------
+-------STATIC KEYWORD------\n 
+when we use static keyword for instance variables then we are specifiying that this instance variable belongs to all the objects creadted for that class and there will be a different space created for all the  static variables
 
 
