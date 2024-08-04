@@ -45,4 +45,5 @@ class Demo
 **when we use static keyword for instance variables then we are specifiying that this instance variable belongs to all the objects creadted for that class and there will be a different space created for all the  static variables**
 **we can use a static variable inside of a static method but we cannot use non-static variable inside of the static method**
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------hari yadava raasadu
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+method overloading
