@@ -4,6 +4,8 @@
 **->every mothond in java has its own stack memory and A stack have only two columns and multiple rows one column is to key and another is value **A key would be the name of the variable and value .
 ** Objects are created in the heap memory now in that object there will be two parts one is storing the instance variables(the variables which we declare globally) and in the another part it will contain th emethod names
 and as we know methods have its own stack memory. 
+![image](https://github.com/user-attachments/assets/f395b0b5-6c09-4a75-82b7-1a02d03c9b39)
+
 eg:class Student
 {
 int sno;           //instance variables
