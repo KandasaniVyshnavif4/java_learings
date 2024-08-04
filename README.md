@@ -41,4 +41,6 @@ class Demo
     }
 }
 
+-------STATIC KEYWORD------
+
 
