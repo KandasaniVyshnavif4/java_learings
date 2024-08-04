@@ -1,0 +1,77 @@
+//output statment
+//console.log()
+console.log("Hello!World")
+//o/p : Hello! World
+
+
+//Variables in javaScript
+//inorder to initialze the variables we have to use the
+// keyword "    let  "
+let a=12
+let b="vyshnavi"
+console.log(a+"  "+b)
+//o/p : 12  vyshnavi
+
+//ex2:
+let d=12
+let c="vyshnavi"
+d = 987
+console.log(c+"  "+d)
+// o/p : vyshnavi  987
+
+//we can change the value of a variabble when ever we want  but we cant change the values of a constants when ever we want
+
+//constants in javascript
+//inorder to initialze the constant we have to use the 
+// keyword "   const  "
+
+const e=12
+const f="vyshnavi"
+e = 987
+console.log(e+"  "+f)//but this code throws an error , here we are trying to change the value of e ,but e is a constant 
+//so it throws error
+//Assignment to constant variable.
+// so the correct way is : we shouldnt try to change the constant values
+
+const h=12
+const g="vyshnavi"
+console.log(g+"  "+h)
+//o/p : vyshnavi  12
+
+// knowing the type of the data 
+// keyword "   typeof  "
+const i=12
+const j="vyshnavi"
+console.log(2+"."+typeof i)
+console.log(1 + "."+typeof j) 
+
+//o/p : 1.number
+//      2.string
+
+// magic with javascript datatypes
+
+//(1)
+console.log(5/0)
+//o/p : Infinity     // the output is Infinity!! yes we can see thin in output terminal
+
+
+console.log(-5/0)
+// o/p :  -Infinity
+
+//(2)
+//to get the amximum valiue 
+//keyword "MAX_VALUE"
+
+console.log(Number.MAX_VALUE)
+//o/p : 1.7976931348623157e+308
+//(3)
+//big in
+//keyword " n"
+
+console.log(124567890123456781234567) // we are trying to print the value but the output is 
+// o/p : 1.2456789012345679e+23 
+// this inorder get the exact value we use bigint 
+
+//ex :
+console.log(124567890123456781234567n)
+// o/p : 124567890123456781234567n
