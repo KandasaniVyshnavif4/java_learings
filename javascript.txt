@@ -3,7 +3,7 @@
 console.log("Hello!World")
 //o/p : Hello! World
 
-
+-----------------------------------------------------------------------------------------------
 //Variables in javaScript
 //inorder to initialze the variables we have to use the
 // keyword "    let  "
@@ -20,7 +20,7 @@ console.log(c+"  "+d)
 // o/p : vyshnavi  987
 
 //we can change the value of a variabble when ever we want  but we cant change the values of a constants when ever we want
-
+-----------------------------------------------------------------------------------------------
 //constants in javascript
 //inorder to initialze the constant we have to use the 
 // keyword "   const  "
@@ -47,7 +47,7 @@ console.log(1 + "."+typeof j)
 
 //o/p : 1.number
 //      2.string
-
+-----------------------------------------------------------------------------------------------
 // magic with javascript datatypes
 
 //(1)
@@ -75,3 +75,143 @@ console.log(124567890123456781234567) // we are trying to print the value but th
 //ex :
 console.log(124567890123456781234567n)
 // o/p : 124567890123456781234567n
+-----------------------------------------------------------------------------------------------
+***Type casting***
+--->Number to string<---(Explicit convertion)
+________________________
+let a = String(2)
+console.log((a))
+console.log(typeof a)
+// o/p : 2
+         string
+
+-->String to Number<--(xplicit convertion)
+__________________________
+
+                                //o/p : string
+let a="3456"                             number
+console.log(typeof a)
+a = Number("3456")
+
+console.log(typeof a)
+
+**//conacatination of two strings**(using "  +  " operator)
+let a= "vyshnavi"
+let b = "Kandasani"
+console.log(a+" " +b)
+console.log(typeof (a+b))
+---------------------------------coreciion-----------------------------------------------------
+***Whwn ever we are trying to add two different datatypes 
+type 1 ->Number
+type2 ->String
+then the result of **| typeof(type1+type2) |**  is A "STRING" ****
+ex:
+let a= 12
+let b = "Kandasani"
+console.log(a+" " +b)
+console.log(typeof (a+b))
+//o/p : 12 Kandasani
+       string
+*****Whwn ever we are trying to subtract two different datatypes 
+type 1 ->Number
+type2 ->String
+then the result of **| typeof(type1+type2) |**  is A "Number" ****
+
+ex:
+let a= 12
+let b = "Kandasani"
+console.log(a-b)
+console.log(typeof (a-b))
+//o/p:
+NaN 
+Number
+-->NaN  // Not a Number which means we cannot perform the ' - 'operation but the type of result is number
+-----------------Number to boolean----------------**(We use '!' it is basically not operator we can convert the number into boolean using this not operator)**
+
+let a = 12
+console.log(typeof(a))
+a = !a
+console.log(a,typeof(a))
+o/p:
+number
+false boolean
+//the reason why it is giving false is initially every number (in this case "a" is TRUE after using NOT operator it is false......
+
+//Number to string 
+let a = 123
+console.log(typeof (a))
+ a= String(123)
+console.log(typeof (a))
+console.log(1,'-----------')
+//Addition of  number and string
+let b =12
+let c ="vyshu "
+console.log(b+c , typeof(b+c))    //returs a string
+console.log(2,'-----------')
+// String to number
+
+let d ="12"
+console.log(typeof(d))
+d = Number("12")
+console.log(typeof(d))
+console.log(3,'-----------')
+// subtracting number and string 
+
+let e =12
+let v ="vyshnavi"
+console.log(e - v)
+console.log(typeof(e-v))
+console.log(4,'-----------')
+
+//BOOlean
+let p =12
+console.log(typeof (p))
+p = Boolean(12)
+console.log(p)
+console.log(typeof(p))  //it is giving output as   Bollean is not defined
+console.log(4,'-----------')
+let q =12
+console.log(typeof (q))
+//12)
+console.log(Boolean(q))
+q =String(12)
+console.log(typeof (q))
+console.log(Boolean(q))
+console.log(typeof (Boolean(q)))
+
+
+o/p:node /tmp/fQet1DDNHN.js
+number
+string
+1 -----------
+12vyshu  string
+2 -----------
+string
+number
+3 -----------
+NaN
+number
+4 -----------
+number
+true
+boolean
+4 -----------
+number
+true
+string
+true
+boolean
+
+https://www.programiz.com/online-compiler/4G4kmaqRrN8MG
+
+
+
+
+
+
+
+
+
+
+
+
