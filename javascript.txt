@@ -203,11 +203,87 @@ true
 boolean
 
 https://www.programiz.com/online-compiler/4G4kmaqRrN8MG
+-------------------------------logical operator ----------------
+let a =1
+let b= 34
+let c =567
+let result = a>b && a>c
+let r1 = a<b || a<c
+console.log(result)
+console.log(" a<b || a<c"+" "+r1)
+
+op:
+false
+a<b || a<c true
+
+logical AND is &&
+logical OR is ||
+logical NOT is ~
+---------------------------conditional statments-------------
+let age = prompt("enter the value")
+if (age>18)
+    console.log("you can vote")
+else
+    console.log("sorry you cant")
+op:
+enter the value19
+you can vote
+------syntax----
+if(condition)
+{statment()}
+else                
+{(statment)}
 
 
+------------------------------------------SUMMERY TILL NOW---------------
+->>>***output sttament : console.log()
+->>>>***input stament   : prompt() 
+->>>>***variables two types 1) variable  2) constants
+1) variable --> they allow to change when ever we want to change the value   ****key word --> let  <---***
+2) constants --> they  donot allow to change when ever we want to change the value   ****key word --> const  <---*** 
+--> *** typeof ** it is the key word wich we use to know the type of data
+-->>>***type casting
+1) Number to String ->> 
+-----------------------------
+let a = String(4)
+(or)
+let a =4 
+console.log(String(a))
+2) String to Number -->>>
+----------------------------
+let a = Number("VYSHNAVI")
+(or)
+let a = "VYSHNAVI" 
+console.log(Number(a))
+3) Number to Boolean  and  String to Boolean ---->>>>
+i)let a = 4
+console.log(Boolean(a))  //op: true for almost everything excet zero and some others 
 
-
-
+      
+ii)let a = "vyshi"
+console.log(Boolean(a))
+---->>>*** logical operators
+logical AND is &&
+logical OR is ||
+logical NOT is ~
+----->>>>***conditional sttment if else
+if(condition)
+{statment()}
+else                
+{(statment)}
+----->>>>>***else if statments
+since these are single statments we are giving four spaces
+if(condition)
+||||statment()
+else if(condition)
+||||(statment)
+.
+.
+.
+.
+else                //  |||| represent no.of spaces
+||||(statment)
+    (or) insted of spaces we can also use { } like in c if we have multiple spaces we need to use { }
 
 
 
