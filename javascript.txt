@@ -233,7 +233,22 @@ if(condition)
 {statment()}
 else                
 {(statment)}
+-----switch statment:
+let day = prompt("enter the day")
 
+switch(day)
+{
+    case 'monday' : console.log("90");
+    break;
+    case 'tuesday' : console.log("34");
+    break;
+    case 'wednesday' : console.log("67");
+    break;
+    
+}
+op: enter the day
+monday
+90
 
 ------------------------------------------SUMMERY TILL NOW---------------
 ->>>***output sttament : console.log()
@@ -284,6 +299,45 @@ else if(condition)
 else                //  |||| represent no.of spaces
 ||||(statment)
     (or) insted of spaces we can also use { } like in c if we have multiple spaces we need to use { }
+if(condition)
+{ 
+statment()
+}
+else if(condition)
+{
+ststment
+}
+else                
+{
+(statment)
+}
+------------>>>***switch statment
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+--------->**templete litral
+let a=2
+let b = 4
+console.log(`the sum of ${a} and ${b} is ${a+b}`)
+//` `->inside this we need to wright and to print values of a,b in therir positions we use ${} inside this we have to write like this ${a}
+--->printing in new line \n 
+---->tab space \t
+--->printing in nwe line using templete literal 
+ex:
+console.log(`vyshnavi
+kandasani
+mamatha
+kandasani`)
+****it will print as-it-is
+
+
 
 
 
