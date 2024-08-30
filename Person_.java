@@ -46,12 +46,46 @@ public Employee_(String x,String y)
         System.out.println(eno + "\n" +edept +"\n"+ esal);
     }
 }
+
+
+// Modify the above program by creating a subclass of Employee called Department with the variablesdno, dname, experience. 
+//Set parameterized method for setting the data and display all the information
+
+
+class Department extends Employee_
+{
+    int dno;
+    String dname;
+    int experience;
+
+    public Department(String x ,String y)
+    {
+        super(x,y);
+    }
+    public void set1(int n,String e , int c )
+    {
+        dno = n;
+        dname = e;
+        experience = c;
+    }
+    public void display()
+    {
+        super.display();{
+            System.out.println(dno + "\n" + dname+"\n"+experience );    
+        }
+    }
+}
 class Person
 {
     public static void main(String args[])
     {
-        Employee_ e = new Employee_("vyshnavi" , "kandasani");
+        Department e = new Department("vyshnavi" , "kandasani");
         e.set(2,3,4);
+        e.set1(100,"yess",900);
         e.display();
     }
 } 
+// Modify the above program by creating a subclass of Employee called Department with the variablesdno, dname, experience. 
+//Set parameterized method for setting the data and display all the information
+
+
